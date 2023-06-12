@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <cctype>
+#include "ScalarConverter.hpp"
 
 
 
@@ -10,11 +11,8 @@
 
 int main()
 {
-	while (1)
-	{
-	std::string input;
-	std::cout << "Enter a value: ";
-	std::cin >> input;
-	std::cout << "Type: " << type_detetion(input) << std::endl;
-	}
+	ScalarConverter test1("2.2f");
+	// ScalarConverter test2("0.0");
+	// ScalarConverter test3("0.0f");
+
 }
