@@ -7,7 +7,7 @@
 #                                     CONFIG                                   #
 ################################################################################
 
-NAME        := a.out
+NAME        := convert
 CC         := c++
 FLAGS    := -Wall -Wextra -Werror -std=c++98 -g
  
@@ -16,6 +16,7 @@ FLAGS    := -Wall -Wextra -Werror -std=c++98 -g
 ################################################################################
 
 SRCS        :=      main.cpp \
+                          ScalarConverter.cpp \
                           
 OBJS        := ${SRCS:.cpp=.o}
 
